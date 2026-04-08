@@ -1,0 +1,55 @@
+body {
+font-family: 'Segoe UI', sans-serif;
+margin: 0;
+line-height: 1.6;
+background-color: #f4f1ea;
+color: #332a28;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+padding: 1rem 5%;
+background: #332a28;
+color: white;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+gap: 20px;
+}
+
+.hero {
+height: 60vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085');
+background-size: cover;
+color: white;
+text-align: center;
+}
+
+button {
+padding: 10px 25px;
+background: #d4a373;
+border: none;
+cursor: pointer;
+font-weight: bold;
+}
+
+.menu-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+padding: 2rem 5%;
+}
+
+.item {
+background: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
